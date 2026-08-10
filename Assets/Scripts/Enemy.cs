@@ -22,8 +22,8 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         agent.SetDestination(player.transform.position);
-        
     }
+
     void OnTriggerEnter(Collider other)
     {
         if(other.GetComponent<CharacterController>())
