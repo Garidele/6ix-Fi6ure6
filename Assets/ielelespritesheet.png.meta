@@ -112,8 +112,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: d61d56bf6fa254289a01da0f10e0b01d
       internalID: 1773040403
+=======
+      spriteID: 5aadcc23e09a14d99a439687f0e4221b
+      internalID: 1826667405
+>>>>>>> save
       vertices: []
       indices: 
       edges: []
@@ -134,8 +139,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 059b27785427143c49adcdf070642cba
       internalID: -2011869946
+=======
+      spriteID: a43ef9f0da0e5475bba578185a4fb859
+      internalID: 2035150365
+>>>>>>> save
       vertices: []
       indices: 
       edges: []
@@ -156,8 +166,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 7b1faf5be15794b93b1903be99171c8b
       internalID: 956762595
+=======
+      spriteID: a1767a3d67b374d33a1e5f4530c1c578
+      internalID: -1010486648
+>>>>>>> save
       vertices: []
       indices: 
       edges: []
@@ -178,8 +193,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: c3ebcc2976de04beb8cca0aedafbddf9
       internalID: -1396794951
+=======
+      spriteID: c5220b4a6aeb048f683aa75ddb179390
+      internalID: 2086808969
+>>>>>>> save
       vertices: []
       indices: 
       edges: []
@@ -188,7 +208,11 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
+<<<<<<< HEAD
     spriteID: 38f9ddecaadf34270a64e923b5537a72
+=======
+    spriteID: f135b5ef175eb427db46088fe9241515
+>>>>>>> save
     internalID: 0
     vertices: []
     indices: 
@@ -200,10 +224,17 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1602.0,"y":1602.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
+<<<<<<< HEAD
       ielelespritesheet_0: 1773040403
       ielelespritesheet_1: -2011869946
       ielelespritesheet_2: 956762595
       ielelespritesheet_3: -1396794951
+=======
+      ielelespritesheet_0: 1826667405
+      ielelespritesheet_1: 2035150365
+      ielelespritesheet_2: -1010486648
+      ielelespritesheet_3: 2086808969
+>>>>>>> save
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
