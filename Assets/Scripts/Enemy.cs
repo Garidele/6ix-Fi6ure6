@@ -21,7 +21,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        agent.SetDestination(player.transform.position);
+        //agent.SetDestination(player.position);
     }
 
     void OnTriggerEnter(Collider other)

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using StarterAssets;
 
 [RequireComponent(typeof(NavMeshAgent))]
 public class EnemyChaser : MonoBehaviour
@@ -36,12 +37,17 @@ public class EnemyChaser : MonoBehaviour
     void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
+        isFrozen = false;
     }
 
     void Update()
     {
         bool visible = IsVisibleToPlayer();
 
+        if (!isFrozen && player != null)
+        {
+            agent.SetDestination(player.position);
+        }
         if (visible)
         {
             seenTimer += Time.deltaTime;
@@ -63,10 +69,6 @@ public class EnemyChaser : MonoBehaviour
             }
         }
 
-        if (!isFrozen && player != null)
-        {
-            agent.SetDestination(player.position);
-        }
     }
 
     bool IsVisibleToPlayer()
