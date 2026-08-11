@@ -26,8 +26,8 @@ public class IeleleChaser : MonoBehaviour
         
         if (isFrozen && stamina.currentStamina <= 40)
         {
-            Unfreeze();
             ielele.SetActive(true);
+            Unfreeze();
         }
         if(!isFrozen && stamina.currentStamina > 40)
         {

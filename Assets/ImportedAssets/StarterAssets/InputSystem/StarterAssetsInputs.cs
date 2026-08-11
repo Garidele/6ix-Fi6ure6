@@ -12,6 +12,8 @@ namespace StarterAssets
 		public Vector2 look;
 		public bool jump;
 		public bool sprint;
+		public Canvas death;
+		public Canvas win;
 
 		[Header("Movement Settings")]
 		public bool analogMovement;
